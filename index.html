@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b2c7ef89be.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link to the file hosted on your server, -->
+    <link
+      rel="stylesheet"
+      href="node_modules/@splidejs/splide/dist/css/splide.min.css"
+    />
+    <!-- icon -->
+    <link rel="icon" href="img/logo.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Splide JS</title>
+  </head>
+  <body>
+    <div class="carousell">
+      <div class="carousel-title"><h2>Our Teams</h2></div>
+      <section
+        id="image-carousel"
+        role="group"
+        class="splide"
+        aria-label="Beautiful Images"
+      >
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="img/1.jfif" alt="" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/2.png" alt="" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/3.png" alt="" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/5.jfif" alt="" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/1.jfif" alt="" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/4.png" alt="" />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
